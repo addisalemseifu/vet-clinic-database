@@ -7,3 +7,9 @@ escape_attempts INT,
 neutered BOOLEAN,
 weight_kg DECIMAL
 );
+
+
+-- Day two
+
+ALTER TABLE animals
+ADD species VARCHAR(255);
